@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/star.png" type="favicon/ico" />
 
-    <title>Affordable Knoxville Photographers - nkpicture</title>
+    <title>nkpicture</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -93,7 +93,7 @@
                                                     <div class="add wow bounceInRight animated" data-wow-delay=".6s">
                                                         <i class="fa fa-users"></i>
                                                         <p>
-                                                            Portrait<br>Photography
+                                                            Portrait<br>Potography
                                                         </p>
                                                     </div>
                                                 </a>
@@ -301,18 +301,6 @@
     <script src="js/jquery.validate.js"></script>
     <script src="nivo-lightbox/nivo-lightbox.min.js"></script>
     <script src="js/script.js"></script>
-
-
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-71639240-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
 
   </body>
 </html>

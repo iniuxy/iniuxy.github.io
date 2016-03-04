@@ -1,0 +1,18 @@
+<?php
+    $to      = 'iniuxy@gmail.com';
+    $email   = $_POST['email'];
+
+    $name  = $_POST['name'];
+    $message = $_POST['text-massage'];
+
+    $headers = 'From: nkpicture'. '<'.$email.'>' . "\r\n" .
+        'Reply-To: '. $email . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+
+    if (mail($to, $subject, $message, $headers)){
+       echo("<p>Sent</p>");
+ 		} else {
+  		echo("<p>Error...</p>");
+ 		}
+      
+?>
